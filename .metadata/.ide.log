@@ -1,0 +1,10 @@
+2024-12-17 23:36:29,837 [INFO] Activator:177 - 
+
+
+2024-12-17 23:36:29,837 [INFO] Activator:178 - !SESSION log4j initialized
+2024-12-17 23:37:58,190 [INFO] Activator:177 - 
+
+
+2024-12-17 23:37:58,202 [INFO] Activator:178 - !SESSION log4j initialized
+2024-12-17 23:38:47,689 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {s}->https://sw-center.st.com:443: Socket operation on nonsocket: configureBlocking
+2024-12-17 23:38:47,696 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443

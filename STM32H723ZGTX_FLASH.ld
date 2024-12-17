@@ -119,6 +119,12 @@ SECTIONS
     PROVIDE_HIDDEN (__fini_array_end = .);
   } >FLASH
 
+
+.trace (NOLOAD): 
+{
+	. = ALIGN(4);
+		*(.trace)
+} >RAM_D1
   /* used by the startup to initialize data */
   _sidata = LOADADDR(.data);
 
@@ -135,6 +141,9 @@ SECTIONS
     . = ALIGN(4);
     _edata = .;        /* define a global symbol at data end */
   } >RAM_D1 AT> FLASH
+
+
+
 
   /* Uninitialized data section */
   . = ALIGN(4);

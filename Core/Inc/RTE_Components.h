@@ -38,5 +38,6 @@
 /* Defines ------------------------------------------------------------------*/
 /* STMicroelectronics.X-CUBE-AZRTOS-H7.3.3.0 */
 #define THREADX_ENABLED
+#define TRACEX_SUPPORT_ENABLED
 
 #endif /* __RTE_COMPONENTS_H__ */
